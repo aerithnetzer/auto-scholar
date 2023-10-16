@@ -7,6 +7,12 @@ echo "Please enter the name of your project:"
 read project_name
 echo "You entered: $project_name"
 
+
+echo "    /\_/\ "
+echo "  ( o   o )"
+echo "   =\_v_/="
+
+
 # Create a directory for the project
 mkdir $project_directory/$project_name
 cd $project_directory/$project_name
