@@ -35,3 +35,5 @@ touch $project_name.md
 mkdir assets
 
 code ../$project_name
+
+echo "Done! Happy writing! <3 Meow!"
