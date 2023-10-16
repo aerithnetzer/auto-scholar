@@ -12,7 +12,7 @@ mkdir $project_directory/$project_name
 cd $project_directory/$project_name
 
 # Create a vscode workspace for the project that has the same name as the project
-code $project_name.code-workspace
+touch $project_name.code-workspace
 
 # Add a JSON entry to the workspace file that specifies the Pandoc Citer .bib file location
 echo "{
@@ -34,3 +34,4 @@ touch $project_name.md
 # Create an assets directory for the project
 mkdir assets
 
+code ../$project_name
